@@ -5,3 +5,4 @@ function __export(m) {
 exports.__esModule = true;
 __export(require("./validate"));
 __export(require("./text"));
+__export(require("./querystring"));

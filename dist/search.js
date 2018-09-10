@@ -1,8 +1,8 @@
 "use strict";
 exports.__esModule = true;
-var Search = /** @class */ (function () {
-    function Search() {
+var search = /** @class */ (function () {
+    function search() {
     }
-    return Search;
+    return search;
 }());
-exports.Search = Search;
+exports.search = search;
