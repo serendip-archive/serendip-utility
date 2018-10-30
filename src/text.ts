@@ -15,8 +15,9 @@ export class text {
 
     static replaceEnglishDigitsWithPersian(input) {
 
-        if (!input)
+        if (typeof input == 'undefined')
             input = '';
+            
         var convert = (a) => {
             return ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'][a];
         }
