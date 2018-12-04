@@ -142,10 +142,16 @@ export class text {
     }
 
     for (var i = 0, charsLen = text.englishKeyChar.length; i < charsLen; i++) {
-      value = value.replace(
-        new RegExp(text.englishKeyChar[i], "g"),
-        text.persianKeyChar[i]
-      );
+
+      try {
+        value = value.replace(
+          new RegExp(text.englishKeyChar[i], "g"),
+          text.persianKeyChar[i]
+        );
+      } catch (error) {
+        
+      }
+   
     }
 
     return value;
