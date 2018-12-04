@@ -89,7 +89,19 @@ export class text {
       .reverse()
       .join("");
   }
+  static replaceArabicCharWithPersian(value) {
+    if (!value) {
+      return "";
+    }
 
+    for (var i = 0, charsLen = text.arabicChars.length; i < charsLen; i++) {
+      value = value.replace(
+        new RegExp(text.arabicChars[i], "g"),
+        text.persianChars[i]
+      );
+    }
+    return value;
+  }
   static replacePersianDigitsWithEnglish(string) {
     return string
       .replace(/[\u0660-\u0669]/g, function(c) {

@@ -1,6 +1,6 @@
 {
   "name": "serendip-utility",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "tool box for Javascript (+Typescript) programming - no dependency",
   "main": "index.js",
   "directories": {

@@ -9,6 +9,15 @@ var text = /** @class */ (function () {
             .reverse()
             .join("");
     };
+    text.replaceArabicCharWithPersian = function (value) {
+        if (!value) {
+            return "";
+        }
+        for (var i = 0, charsLen = text.arabicChars.length; i < charsLen; i++) {
+            value = value.replace(new RegExp(text.arabicChars[i], "g"), text.persianChars[i]);
+        }
+        return value;
+    };
     text.replacePersianDigitsWithEnglish = function (string) {
         return string
             .replace(/[\u0660-\u0669]/g, function (c) {
