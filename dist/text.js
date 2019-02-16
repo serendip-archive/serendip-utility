@@ -52,8 +52,7 @@ var text = /** @class */ (function () {
             try {
                 value = value.replace(new RegExp(text.englishKeyChar[i], "g"), text.persianKeyChar[i]);
             }
-            catch (error) {
-            }
+            catch (error) { }
         }
         return value;
     };
@@ -89,6 +88,9 @@ var text = /** @class */ (function () {
             value = value.replace(new RegExp(text.arabicNumbers[i], "g"), text.englishNumbers[i]);
         }
         return value;
+    };
+    text.capitalizeFirstLetter = function (string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
     };
     text.arabicNumbers = ["١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩", "٠"];
     text.persianNumbers = ["۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹", "۰"];

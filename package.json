@@ -1,12 +1,14 @@
 {
   "name": "serendip-utility",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "tool box for Javascript (+Typescript) programming - no dependency",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-mocha": "^6.0.0"
+  },
   "devDependencies": {
     "assert": "^1.4.1",
     "gulp": "^3.9.1",

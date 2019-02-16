@@ -102,6 +102,7 @@ export class text {
     }
     return value;
   }
+
   static replacePersianDigitsWithEnglish(string) {
     return string
       .replace(/[\u0660-\u0669]/g, function(c) {
@@ -142,16 +143,12 @@ export class text {
     }
 
     for (var i = 0, charsLen = text.englishKeyChar.length; i < charsLen; i++) {
-
       try {
         value = value.replace(
           new RegExp(text.englishKeyChar[i], "g"),
           text.persianKeyChar[i]
         );
-      } catch (error) {
-        
-      }
-   
+      } catch (error) {}
     }
 
     return value;
@@ -210,5 +207,9 @@ export class text {
       );
     }
     return value;
+  }
+
+  static capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
   }
 }
