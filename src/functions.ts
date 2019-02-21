@@ -5,7 +5,7 @@ export class functions {
    *  */
 
   static args(func: Function | string): string[] {
-    return func
+    return (func || "")
       .toString()
       .replace(/[/][/].*$/gm, "") // strip single-line comments
       .replace(/\s+/g, "") // strip white space

@@ -212,4 +212,43 @@ export class text {
   static capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
+
+  static randomString(length: number, chars: string): string {
+    if (!chars) {
+      throw new Error("Argument 'chars' is undefined");
+    }
+
+    if (typeof chars != "string") {
+      throw new Error("chars should be string like 1234567");
+    }
+    const charArray = chars.split("");
+
+    const result = [];
+    for (var i = 0; i < length; i++) {
+      result[i] = charArray[(Math.random() * charArray.length).toFixed(0)];
+    }
+
+    return result.join("");
+  }
+
+  /** Sync */
+  static randomAsciiString(length): string {
+    return text.randomString(
+      length,
+      "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    );
+  }
+
+  /** Sync */
+  static randomNumberString(length): string {
+    return text.randomString(length, "0123456789");
+  }
+
+  /** Sync */
+  static randomAccessToken(): string {
+    return text.randomString(
+      128,
+      "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~+/"
+    );
+  }
 }

@@ -92,6 +92,32 @@ var text = /** @class */ (function () {
     text.capitalizeFirstLetter = function (string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     };
+    text.randomString = function (length, chars) {
+        if (!chars) {
+            throw new Error("Argument 'chars' is undefined");
+        }
+        if (typeof chars != "string") {
+            throw new Error("chars should be string like 1234567");
+        }
+        var charArray = chars.split("");
+        var result = [];
+        for (var i = 0; i < length; i++) {
+            result[i] = charArray[(Math.random() * charArray.length).toFixed(0)];
+        }
+        return result.join("");
+    };
+    /** Sync */
+    text.randomAsciiString = function (length) {
+        return text.randomString(length, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
+    };
+    /** Sync */
+    text.randomNumberString = function (length) {
+        return text.randomString(length, "0123456789");
+    };
+    /** Sync */
+    text.randomAccessToken = function () {
+        return text.randomString(128, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~+/");
+    };
     text.arabicNumbers = ["١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩", "٠"];
     text.persianNumbers = ["۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹", "۰"];
     text.englishNumbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];

@@ -1,7 +1,9 @@
-export * from "./validate";
+// created from 'create-ts-index'
 
-export * from "./text";
-
-export * from "./querystring";
-
+export * from "./arrays";
 export * from "./functions";
+export * from "./querystring";
+export * from "./search";
+export * from "./sort";
+export * from "./text";
+export * from "./validate";

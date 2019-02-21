@@ -8,7 +8,7 @@ var functions = /** @class */ (function () {
      * @argument func : input as function or function as string
      *  */
     functions.args = function (func) {
-        return func
+        return (func || "")
             .toString()
             .replace(/[/][/].*$/gm, "") // strip single-line comments
             .replace(/\s+/g, "") // strip white space
