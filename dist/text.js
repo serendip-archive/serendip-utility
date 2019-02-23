@@ -102,7 +102,7 @@ var text = /** @class */ (function () {
         var charArray = chars.split("");
         var result = [];
         for (var i = 0; i < length; i++) {
-            result[i] = charArray[(Math.random() * charArray.length).toFixed(0)];
+            result[i] = charArray[Math.floor(Math.random() * charArray.length)];
         }
         return result.join("");
     };
