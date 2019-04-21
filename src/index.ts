@@ -7,3 +7,4 @@ export * from "./search";
 export * from "./sort";
 export * from "./text";
 export * from "./validate";
+export * from "./objects";

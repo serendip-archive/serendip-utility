@@ -247,8 +247,8 @@ export class text {
   /** Sync */
   static randomAccessToken(): string {
     return text.randomString(
-      128,
-      "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~+/"
+      64,
+      "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.-@#$"
     );
   }
 }
