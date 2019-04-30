@@ -67,3 +67,7 @@ This documents are auto generated from typescript source using [typedoc](https:/
 * [arrays](doc/classes/utility.arrays.md#methods)
 * [functions](doc/classes/utility.functions.md#methods)
 * [objects](doc/classes/utility.objects.md#methods)
+
+
+![_](https://serendip.agency/assets/svg/about/about-7.svg "")
+ 
