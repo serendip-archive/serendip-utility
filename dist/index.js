@@ -7,7 +7,6 @@ exports.__esModule = true;
 __export(require("./arrays"));
 __export(require("./functions"));
 __export(require("./querystring"));
-__export(require("./search"));
-__export(require("./sort"));
 __export(require("./text"));
 __export(require("./validate"));
+__export(require("./objects"));

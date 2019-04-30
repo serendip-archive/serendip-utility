@@ -1,5 +1,8 @@
 "use strict";
 exports.__esModule = true;
+/**
+ * @module Utility
+ */
 var text = /** @class */ (function () {
     function text() {
     }

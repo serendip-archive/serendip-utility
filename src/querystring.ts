@@ -1,3 +1,6 @@
+/**
+ * @module Utility
+ */
 export class querystring {
 
     /**

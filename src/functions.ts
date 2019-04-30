@@ -1,3 +1,6 @@
+/**
+ * @module Utility
+ */
 export class functions {
   /**
    * returns array of given function arguments

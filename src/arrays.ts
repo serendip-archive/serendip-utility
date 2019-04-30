@@ -1,9 +1,12 @@
+/**
+ * @module Utility
+ */
 export class arrays {
   static toposort(edges) {
     return arrays._toposort(arrays._uniqueNodes(edges), edges);
   }
 
-  static _uniqueNodes(arr) {
+  private static _uniqueNodes(arr) {
     var res = [];
     for (var i = 0, len = arr.length; i < len; i++) {
       var edge = arr[i];
@@ -13,7 +16,7 @@ export class arrays {
     return res;
   }
 
-  static _toposort(nodes, edges) {
+  private static _toposort(nodes, edges) {
     var cursor = nodes.length,
       sorted = new Array(cursor),
       visited = {},
@@ -39,7 +42,7 @@ export class arrays {
       if (!~nodes.indexOf(node)) {
         throw new Error(
           "Found unknown node. Make sure to provided all involved nodes. Unknown node: " +
-            JSON.stringify(node)
+          JSON.stringify(node)
         );
       }
 
@@ -47,7 +50,7 @@ export class arrays {
       visited[i] = true;
 
       // outgoing edges
-      var outgoing = edges.filter(function(edge) {
+      var outgoing = edges.filter(function (edge) {
         return edge[0] === node;
       });
       if ((i = outgoing.length)) {

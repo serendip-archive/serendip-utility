@@ -1,0 +1,1495 @@
+{
+	"id": 0,
+	"name": "Serendip Utility",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "Utility",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/media/mohsen/IO/Serendip/serendip-utility/src/arrays.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "arrays",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {},
+					"children": [
+						{
+							"id": 3,
+							"name": "toposort",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 4,
+									"name": "toposort",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 5,
+											"name": "edges",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "any"
+										}
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "arrays.ts",
+									"line": 5,
+									"character": 17
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								3
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "arrays.ts",
+							"line": 4,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 7,
+					"name": "functions",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {},
+					"children": [
+						{
+							"id": 8,
+							"name": "args",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 9,
+									"name": "args",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "returns array of given function arguments",
+										"tags": [
+											{
+												"tag": "argument",
+												"text": "func : input as function or function as string\n"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 10,
+											"name": "func",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"name": "Function"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "functions.ts",
+									"line": 10,
+									"character": 13
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								8
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "functions.ts",
+							"line": 4,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 12,
+					"name": "objects",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {},
+					"children": [
+						{
+							"id": 13,
+							"name": "memorySizeOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 14,
+									"name": "memorySizeOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "returns size of obj in bytes"
+									},
+									"parameters": [
+										{
+											"id": 15,
+											"name": "obj",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "any object\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "objects.ts",
+									"line": 10,
+									"character": 21
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								13
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "objects.ts",
+							"line": 5,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 17,
+					"name": "querystring",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {},
+					"children": [
+						{
+							"id": 18,
+							"name": "fromObject",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 19,
+									"name": "fromObject",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "convert object to querystring"
+									},
+									"parameters": [
+										{
+											"id": 20,
+											"name": "inputObject",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "javascript object to be converted.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "querystring.ts",
+									"line": 10,
+									"character": 28
+								}
+							]
+						},
+						{
+							"id": 21,
+							"name": "toObject",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 22,
+									"name": "toObject",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "convert querystring to object"
+									},
+									"parameters": [
+										{
+											"id": 23,
+											"name": "querystring",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "complete url or just querystring part\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "querystring.ts",
+									"line": 23,
+									"character": 26
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								18,
+								21
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "querystring.ts",
+							"line": 4,
+							"character": 24
+						}
+					]
+				},
+				{
+					"id": 25,
+					"name": "text",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {},
+					"children": [
+						{
+							"id": 29,
+							"name": "arabicChars",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 8,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " [\r\n    \"ي\",\r\n    \"ك\",\r\n    \"‍\",\r\n    \"دِ\",\r\n    \"بِ\",\r\n    \"زِ\",\r\n    \"ذِ\",\r\n    \"ِشِ\",\r\n    \"ِسِ\",\r\n    \"ى\"\r\n  ]"
+						},
+						{
+							"id": 26,
+							"name": "arabicNumbers",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 5,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " [\"١\", \"٢\", \"٣\", \"٤\", \"٥\", \"٦\", \"٧\", \"٨\", \"٩\", \"٠\"]"
+						},
+						{
+							"id": 32,
+							"name": "englishKeyChar",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 55,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " [\r\n    \"q\",\r\n    \"w\",\r\n    \"e\",\r\n    \"r\",\r\n    \"t\",\r\n    \"y\",\r\n    \"u\",\r\n    \"i\",\r\n    \"o\",\r\n    \"p\",\r\n    \"[\",\r\n    \"]\",\r\n    \"a\",\r\n    \"s\",\r\n    \"d\",\r\n    \"f\",\r\n    \"g\",\r\n    \"h\",\r\n    \"j\",\r\n    \"k\",\r\n    \"l\",\r\n    \";\",\r\n    \"'\",\r\n    \"z\",\r\n    \"x\",\r\n    \"c\",\r\n    \"v\",\r\n    \"b\",\r\n    \"n\",\r\n    \"m\",\r\n    \",\",\r\n    \"?\"\r\n  ]"
+						},
+						{
+							"id": 28,
+							"name": "englishNumbers",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 7,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " [\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"0\"]"
+						},
+						{
+							"id": 30,
+							"name": "persianChars",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 20,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " [\"ی\", \"ک\", \"\", \"د\", \"ب\", \"ز\", \"ذ\", \"ش\", \"س\", \"ی\"]"
+						},
+						{
+							"id": 31,
+							"name": "persianKeyChar",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 21,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " [\r\n    \"ض\",\r\n    \"ص\",\r\n    \"ث\",\r\n    \"ق\",\r\n    \"ف\",\r\n    \"غ\",\r\n    \"ع\",\r\n    \"ه\",\r\n    \"خ\",\r\n    \"ح\",\r\n    \"ج\",\r\n    \"چ\",\r\n    \"ش\",\r\n    \"س\",\r\n    \"ی\",\r\n    \"ب\",\r\n    \"ل\",\r\n    \"ا\",\r\n    \"ت\",\r\n    \"ن\",\r\n    \"م\",\r\n    \"ک\",\r\n    \"گ\",\r\n    \"ظ\",\r\n    \"ط\",\r\n    \"ز\",\r\n    \"ر\",\r\n    \"ذ\",\r\n    \"د\",\r\n    \"پ\",\r\n    \"و\",\r\n    \"؟\"\r\n  ]"
+						},
+						{
+							"id": 27,
+							"name": "persianNumbers",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 6,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": " [\"۱\", \"۲\", \"۳\", \"۴\", \"۵\", \"۶\", \"۷\", \"۸\", \"۹\", \"۰\"]"
+						},
+						{
+							"id": 60,
+							"name": "capitalizeFirstLetter",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 61,
+									"name": "capitalizeFirstLetter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 62,
+											"name": "string",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 215,
+									"character": 30
+								}
+							]
+						},
+						{
+							"id": 51,
+							"name": "fixPersianHalfSpace",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 52,
+									"name": "fixPersianHalfSpace",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 53,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 160,
+									"character": 28
+								}
+							]
+						},
+						{
+							"id": 73,
+							"name": "randomAccessToken",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 74,
+									"name": "randomAccessToken",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Sync"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 251,
+									"character": 26
+								}
+							]
+						},
+						{
+							"id": 67,
+							"name": "randomAsciiString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 68,
+									"name": "randomAsciiString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Sync"
+									},
+									"parameters": [
+										{
+											"id": 69,
+											"name": "length",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 238,
+									"character": 26
+								}
+							]
+						},
+						{
+							"id": 70,
+							"name": "randomNumberString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 71,
+									"name": "randomNumberString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"shortText": "Sync"
+									},
+									"parameters": [
+										{
+											"id": 72,
+											"name": "length",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 246,
+									"character": 27
+								}
+							]
+						},
+						{
+							"id": 63,
+							"name": "randomString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 64,
+									"name": "randomString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 65,
+											"name": "length",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 66,
+											"name": "chars",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 219,
+									"character": 21
+								}
+							]
+						},
+						{
+							"id": 36,
+							"name": "replaceArabicCharWithPersian",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 37,
+									"name": "replaceArabicCharWithPersian",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 38,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 95,
+									"character": 37
+								}
+							]
+						},
+						{
+							"id": 57,
+							"name": "replaceArabicDigitsWithEnglish",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 58,
+									"name": "replaceArabicDigitsWithEnglish",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 59,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 196,
+									"character": 39
+								}
+							]
+						},
+						{
+							"id": 54,
+							"name": "replaceArabicDigitsWithPersian",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 55,
+									"name": "replaceArabicDigitsWithPersian",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 56,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 177,
+									"character": 39
+								}
+							]
+						},
+						{
+							"id": 42,
+							"name": "replaceEnglishDigitsWithPersian",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 43,
+									"name": "replaceEnglishDigitsWithPersian",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 44,
+											"name": "input",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 119,
+									"character": 40
+								}
+							]
+						},
+						{
+							"id": 39,
+							"name": "replacePersianDigitsWithEnglish",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 40,
+									"name": "replacePersianDigitsWithEnglish",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 41,
+											"name": "string",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 109,
+									"character": 40
+								}
+							]
+						},
+						{
+							"id": 33,
+							"name": "reverse",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 34,
+									"name": "reverse",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 35,
+											"name": "input",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 89,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 48,
+							"name": "switchEnglishKeyToPersian",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 49,
+									"name": "switchEnglishKeyToPersian",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 50,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 143,
+									"character": 34
+								}
+							]
+						},
+						{
+							"id": 45,
+							"name": "switchPersianKeyToEnglish",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 46,
+									"name": "switchPersianKeyToEnglish",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 47,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "text.ts",
+									"line": 128,
+									"character": 34
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								29,
+								26,
+								32,
+								28,
+								30,
+								31,
+								27
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								60,
+								51,
+								73,
+								67,
+								70,
+								63,
+								36,
+								57,
+								54,
+								42,
+								39,
+								33,
+								48,
+								45
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "text.ts",
+							"line": 4,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 76,
+					"name": "validate",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {},
+					"children": [
+						{
+							"id": 85,
+							"name": "isAlphanumeric",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 86,
+									"name": "isAlphanumeric",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 87,
+											"name": "input",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "validate.ts",
+									"line": 25,
+									"character": 25
+								}
+							]
+						},
+						{
+							"id": 82,
+							"name": "isEmail",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 83,
+									"name": "isEmail",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 84,
+											"name": "input",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "validate.ts",
+									"line": 18,
+									"character": 18
+								}
+							]
+						},
+						{
+							"id": 77,
+							"name": "isLength",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 78,
+									"name": "isLength",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 79,
+											"name": "input",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "Input string to check length on"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 80,
+											"name": "min",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "minimum character in string"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 81,
+											"name": "max",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "maximum character in string\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "validate.ts",
+									"line": 12,
+									"character": 19
+								}
+							]
+						},
+						{
+							"id": 88,
+							"name": "isNumeric",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 89,
+									"name": "isNumeric",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 90,
+											"name": "input",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "validate.ts",
+									"line": 32,
+									"character": 20
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								85,
+								82,
+								77,
+								88
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "validate.ts",
+							"line": 4,
+							"character": 21
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2,
+						7,
+						12,
+						17,
+						25,
+						76
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arrays.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1
+			]
+		}
+	]
+}

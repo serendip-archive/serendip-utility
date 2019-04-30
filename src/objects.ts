@@ -1,4 +1,8 @@
-export class objects {
+/**
+ * @module Utility
+ */
+
+ export class objects {
   /**
    * returns size of obj in bytes
    * @param obj any object

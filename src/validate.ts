@@ -1,4 +1,6 @@
-
+/**
+ * @module Utility
+ */
 export class validate {
 
     /**

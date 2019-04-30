@@ -1,5 +1,8 @@
 "use strict";
 exports.__esModule = true;
+/**
+ * @module Utility
+ */
 var functions = /** @class */ (function () {
     function functions() {
     }

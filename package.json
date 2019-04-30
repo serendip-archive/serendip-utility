@@ -1,6 +1,6 @@
 {
   "name": "serendip-utility",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "tool box for Javascript (+Typescript) programming - no dependency",
   "main": "index.js",
   "directories": {
@@ -8,14 +8,18 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp-mocha": "^6.0.0",
+    "@types/mocha": "^5.2.6",
     "assert": "^1.4.1",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "gulp-mocha": "^6.0.0",
+    "gulp-typedoc": "^2.2.2",
     "gulp-typescript": "^5.0.0-alpha.3",
     "jasmine": "^3.2.0",
     "mocha": "^5.2.0",
+    "typedoc": "^0.14.2",
+    "typedoc-plugin-external-module-name": "^2.0.0",
+    "typedoc-plugin-markdown": "^1.2.0",
     "typescript": "^2.9.2"
   },
   "scripts": {

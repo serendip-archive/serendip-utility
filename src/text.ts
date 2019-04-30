@@ -1,3 +1,6 @@
+/**
+ * @module Utility
+ */
 export class text {
   static arabicNumbers = ["١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩", "٠"];
   static persianNumbers = ["۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹", "۰"];
