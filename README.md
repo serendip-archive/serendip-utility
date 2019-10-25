@@ -12,11 +12,11 @@
 Utility package used in serendip repositories.
 
 ### Installing
-Assuming that you have already installed Nodejs, you can start installing Serendip with NPM.
+Assuming that you have already installed Nodejs, you can start installing Serendip Utility package with NPM.
 Open your Terminal/Command Prompt(CMD) and write:
 
 ```
-npm install serendip --save
+npm install serendip-utility --save
 ```
 
 ### Example
